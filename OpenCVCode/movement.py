@@ -32,5 +32,5 @@ while cap.isOpened():
     if cv2.waitKey(40) == 27:
         break
 
-cv2.destroyALLWindows()
+#cv2.destroyALLWindows()
 cap.release()
